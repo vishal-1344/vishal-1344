@@ -1,6 +1,6 @@
 # Vishal Joshua Meesala
 
-I study intelligence as a dynamical process. My research focuses on adaptive inference, stability-aware
+I study intelligence as a dynamical interactive process. My research focuses on adaptive inference, stability-aware
 reasoning, and latent geometric structure in learned systems. I investigate how models regulate their
 own computation, detect instability, and adapt internal representations over time—drawing on ideas
 from control theory, nonlinear dynamics, signal processing, and structured multi-agent coordination.
