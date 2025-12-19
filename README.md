@@ -29,9 +29,9 @@ Modeling cognition as **interacting reasoning processes** coupled through shared
 A lightweight, inference-time control mechanism that treats diffusion sampling as a **dynamical system** and stabilizes it using *intrinsic* trajectory signals.
 
 - Introduces a **latent jerk signal** (angular acceleration of update directions) as an early-warning indicator of structural collapse  
-- Uses **bounded guidance damping with gain scheduling and refractory control** to prevent runaway instability  
-- Achieves large gains in survival under extreme guidance and adversarial prompts **without retraining or added decoding cost**
-- Demonstrates that **instability is preceded by directional inconsistency**, not just large update magnitude
+- Uses **bounded guidance damping** with **gain scheduling** and **refractory control** to prevent runaway instability  
+- Achieves large gains in survival under extreme guidance and adversarial prompts without retraining or added decoding cost
+- Demonstrates that instability is preceded by directional inconsistency, not just large update magnitude
 
 This work positions diffusion inference as a **regulated dynamical process**, rather than a fixed numerical procedure, and shows how internal “proprioceptive” signals can enable robust, low-cost control.
 
@@ -41,7 +41,7 @@ This work positions diffusion inference as a **regulated dynamical process**, ra
 
 ## What I Aim to Build
 
-My long-term goal is to help develop intelligent systems that go beyond static feed-forward pipelines and instead support **dynamically regulated, structurally adaptive reasoning**.
+My long-term goal is to help develop intelligent systems that go beyond static feed-forward pipelines and instead support dynamically regulated, structurally adaptive reasoning.
 
 I am particularly interested in systems that:
 
