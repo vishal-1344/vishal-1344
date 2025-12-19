@@ -9,16 +9,16 @@ I investigate how models can monitor their own inference trajectories, detect ea
 
 ## Research Themes
 
-### **Adaptive inference & closed-loop reasoning**
+### **Adaptive Inference & Closed-Loop Reasoning**
 Viewing inference as a **latent space trajectory** that can be monitored, regulated, and adjusted online using intrinsic discrepancy signals and stability diagnostics, rather than fixed schedules or static heuristics.
 
-### **Stability, safety & early-warning diagnostics**
+### **Stability, Safety & Early-Warning Diagnostics**
 Developing **lightweight inference-time signals** (Lyapunov-style energies, curvature and jerk indicators, off-manifold detection) that anticipate failure *before* visible collapse, enabling preventative control rather than post-hoc correction.
 
-### **Latent structure & slow-timescale adaptation**
+### **Latent structure & Slow-Timescale Adaptation**
 Studying how **internal representations** and **geometry** evolve under novelty, distribution shift, and prediction error, and how slow-timescale adaptation supports robustness in changing environments.
 
-### **Geometric & multi-process reasoning**
+### **Geometric & Multi-Process Reasoning**
 Modeling cognition as **interacting reasoning processes** coupled through shared geometric fields and interaction dynamics, inspired by recurrent cortical circuits, multi-timescale plasticity, and coordinated control systems.
 
 ---
