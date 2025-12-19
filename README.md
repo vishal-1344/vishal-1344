@@ -1,37 +1,62 @@
 # Vishal Joshua Meesala
 
-I study intelligence as a dynamical, interactive process. My research focuses on adaptive inference, stability-aware reasoning, and latent geometric structure in learned systems. I investigate how models regulate their own computation, detect instability, and adapt internal representations over time, drawing on ideas from control theory, nonlinear dynamics, signal processing, structured multi-agent coordination, and systems neuroscience.
+I study intelligence as a **dynamical, interactive process** rather than a static feed-forward computation.  
+My research focuses on **adaptive inference**, **stability-aware reasoning**, and **latent geometric structure** in learned systems.
+
+I investigate how models can **monitor their own inference trajectories**, detect early signs of instability, and **regulate computation in closed loop**, drawing on ideas from **control theory, nonlinear dynamics, signal processing, structured multi-agent coordination, and systems neuroscience**.
 
 ---
 
 ## Research Themes
 
-**Adaptive inference & closed-loop reasoning**  
-Viewing inference as a trajectory that can be monitored, regulated, and adjusted using discrepancy
-signals and stability measures.
+### **Adaptive inference & closed-loop reasoning**
+Viewing inference as a **trajectory through latent space** that can be monitored, regulated, and adjusted online using intrinsic discrepancy signals and stability diagnostics, rather than fixed schedules or static heuristics.
 
-**Stability, safety & interpretability**  
-Using Lyapunov-style energy functions, early-warning diagnostics, and off-manifold detection to
-anticipate failure and support reliable decision-making.
+### **Stability, safety & early-warning diagnostics**
+Developing **lightweight, inference-time signals** (Lyapunov-style energies, curvature and jerk indicators, off-manifold detection) that anticipate failure *before* visible collapse, enabling preventative control rather than post-hoc correction.
 
-**Latent structure & slow-timescale adaptation**  
-Studying how internal geometry evolves over time under novelty and prediction error, shaping robust
-behavior in changing environments.
+### **Latent structure & slow-timescale adaptation**
+Studying how internal representations and geometry evolve under novelty, distribution shift, and prediction error, and how slow-timescale adaptation supports robustness in changing environments.
 
-**Geometric & multi-process reasoning**  
-Modeling cognition as interconnected reasoning processes coupled through shared geometric fields and interaction dynamics, with inspiration from recurrent cortical circuits and multi-timescale plasticity.
+### **Geometric & multi-process reasoning**
+Modeling cognition as **interacting reasoning processes** coupled through shared geometric fields and interaction dynamics, inspired by recurrent cortical circuits, multi-timescale plasticity, and coordinated control systems.
+
+---
+
+## Selected Work & Active Projects
+
+### **Error-360: Latent Proprioception for Stable Diffusion Inference**
+A lightweight, inference-time control mechanism that treats diffusion sampling as a **dynamical system** and stabilizes it using *intrinsic* trajectory signals.
+
+- Introduces a **latent jerk signal** (angular acceleration of update directions) as an early-warning indicator of structural collapse  
+- Uses **bounded guidance damping with gain scheduling and refractory control** to prevent runaway instability  
+- Achieves large gains in survival under extreme guidance and adversarial prompts **without retraining or added decoding cost**
+- Demonstrates that **instability is preceded by directional inconsistency**, not just large update magnitude
+
+This work positions diffusion inference as a **regulated dynamical process**, rather than a fixed numerical procedure, and shows how internal “proprioceptive” signals can enable robust, low-cost control.
+
+→ Repository: `error-360`
 
 ---
 
 ## What I Aim to Build
 
-My long-term research direction is to help develop intelligent systems that complement standard feed-forward pipelines with dynamically regulated and structurally adaptive reasoning, informed by principles from dynamical systems, control, and systems neuroscience. I take inspiration from recurrent cortical circuits, multi-timescale plasticity, and neuromodulatory feedback in designing models that can allocate more computation when needed, know when to stop, adapt their internal structure, and maintain coherent organization over long horizons.
+My long-term goal is to help develop intelligent systems that go beyond static feed-forward pipelines and instead support **dynamically regulated, structurally adaptive reasoning**.
+
+I am particularly interested in systems that:
+
+- Allocate more computation when instability or uncertainty is detected  
+- Know when to stop, damp, or redirect inference  
+- Adapt internal structure under distribution shift  
+- Maintain coherent organization over long horizons  
+
+I take inspiration from **recurrent cortical circuits, neuromodulatory feedback, and multi-timescale plasticity**, using tools from dynamical systems and control theory to design models that are **self-monitoring, self-regulating, and robust by construction**.
 
 ---
 
 ## Tools & Technical Experience
 
-- **Mathematics:** nonlinear dynamics, Lyapunov stability, time-series analysis, probabilistic modeling  
-- **Machine learning:** adaptive inference, representation learning, stability diagnostics, test-time reasoning  
-- **Systems:** PyTorch, NumPy/SciPy, FastAPI, Hugging Face stack, Jupyter, Docker, Linux/Bash  
-- **Engineering:** experimental harnesses for inference-time control, trajectory logging, and model diagnostics
+- **Mathematics:** nonlinear dynamics, Lyapunov stability, time-series analysis, geometric signals  
+- **Machine learning:** adaptive inference, representation learning, stability diagnostics, test-time control  
+- **Systems:** PyTorch, NumPy/SciPy, Hugging Face stack, FastAPI, Jupyter, Docker, Linux/Bash  
+- **Engineering:** inference-time controllers, trajectory logging, diagnostic instrumentation, experimental harnesses
