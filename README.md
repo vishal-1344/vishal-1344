@@ -16,7 +16,7 @@ Viewing inference as a **latent space trajectory** that can be monitored, regula
 Developing **lightweight inference-time signals** (Lyapunov-style energies, curvature and jerk indicators, off-manifold detection) that anticipate failure *before* visible collapse, enabling preventative control rather than post-hoc correction.
 
 ### **Latent structure & slow-timescale adaptation**
-Studying how internal representations and geometry evolve under novelty, distribution shift, and prediction error, and how slow-timescale adaptation supports robustness in changing environments.
+Studying how **internal representations** and **geometry** evolve under novelty, distribution shift, and prediction error, and how slow-timescale adaptation supports robustness in changing environments.
 
 ### **Geometric & multi-process reasoning**
 Modeling cognition as **interacting reasoning processes** coupled through shared geometric fields and interaction dynamics, inspired by recurrent cortical circuits, multi-timescale plasticity, and coordinated control systems.
