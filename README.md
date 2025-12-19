@@ -7,7 +7,7 @@ I investigate how models can monitor their own inference trajectories, detect ea
 
 ---
 
-## Research Themes
+## Research
 
 ### **Adaptive Inference & Closed-Loop Reasoning**
 Viewing inference as a **latent space trajectory** that can be monitored, regulated, and adjusted online using intrinsic discrepancy signals and stability diagnostics, rather than fixed schedules or static heuristics.
