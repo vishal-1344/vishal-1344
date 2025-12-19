@@ -1,6 +1,6 @@
 # Vishal Joshua Meesala
 
-I study intelligence as a **dynamical, interactive process** rather than a static feed-forward computation.  
+I study intelligence as a dynamical, interactive process rather than a static feed-forward computation.  
 My research focuses on **adaptive inference**, **stability-aware reasoning**, and **latent geometric structure** in learned systems.
 
 I investigate how models can monitor their own inference trajectories, detect early signs of instability, and regulate computation in closed loop, drawing on ideas from control theory, nonlinear dynamics, signal processing, structured multi-agent coordination, and systems neuroscience.
