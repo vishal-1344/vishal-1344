@@ -35,7 +35,7 @@ A lightweight, inference-time control mechanism that treats diffusion sampling a
 
 This work positions diffusion inference as a **regulated dynamical process**, rather than a fixed numerical procedure, and shows how internal “proprioceptive” signals can enable robust, low-cost control.
 
-→ Repository: `error-360`
+→ Repository: `error-360-`
 
 ---
 
