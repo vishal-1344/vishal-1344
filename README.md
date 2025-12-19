@@ -10,10 +10,10 @@ I investigate how models can monitor their own inference trajectories, detect ea
 ## Research Themes
 
 ### **Adaptive inference & closed-loop reasoning**
-Viewing inference as a **trajectory through latent space** that can be monitored, regulated, and adjusted online using intrinsic discrepancy signals and stability diagnostics, rather than fixed schedules or static heuristics.
+Viewing inference as a **latent space trajectory** that can be monitored, regulated, and adjusted online using intrinsic discrepancy signals and stability diagnostics, rather than fixed schedules or static heuristics.
 
 ### **Stability, safety & early-warning diagnostics**
-Developing **lightweight, inference-time signals** (Lyapunov-style energies, curvature and jerk indicators, off-manifold detection) that anticipate failure *before* visible collapse, enabling preventative control rather than post-hoc correction.
+Developing **lightweight inference-time signals** (Lyapunov-style energies, curvature and jerk indicators, off-manifold detection) that anticipate failure *before* visible collapse, enabling preventative control rather than post-hoc correction.
 
 ### **Latent structure & slow-timescale adaptation**
 Studying how internal representations and geometry evolve under novelty, distribution shift, and prediction error, and how slow-timescale adaptation supports robustness in changing environments.
