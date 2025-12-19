@@ -15,7 +15,7 @@ Viewing inference as a **latent space trajectory** that can be monitored, regula
 ### **Stability, Safety & Early-Warning Diagnostics**
 Developing **lightweight inference-time signals** (Lyapunov-style energies, curvature and jerk indicators, off-manifold detection) that anticipate failure *before* visible collapse, enabling preventative control rather than post-hoc correction.
 
-### **Latent structure & Slow-Timescale Adaptation**
+### **Latent Structure & Slow-Timescale Adaptation**
 Studying how **internal representations** and **geometry** evolve under novelty, distribution shift, and prediction error, and how slow-timescale adaptation supports robustness in changing environments.
 
 ### **Geometric & Multi-Process Reasoning**
