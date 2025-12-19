@@ -3,7 +3,7 @@
 I study intelligence as a **dynamical, interactive process** rather than a static feed-forward computation.  
 My research focuses on **adaptive inference**, **stability-aware reasoning**, and **latent geometric structure** in learned systems.
 
-I investigate how models can **monitor their own inference trajectories**, detect early signs of instability, and **regulate computation in closed loop**, drawing on ideas from **control theory, nonlinear dynamics, signal processing, structured multi-agent coordination, and systems neuroscience**.
+I investigate how models can monitor their own inference trajectories, detect early signs of instability, and regulate computation in closed loop, drawing on ideas from control theory, nonlinear dynamics, signal processing, structured multi-agent coordination, and systems neuroscience.
 
 ---
 
@@ -23,7 +23,7 @@ Modeling cognition as **interacting reasoning processes** coupled through shared
 
 ---
 
-## Selected Work & Active Projects
+## Active Projects
 
 ### **Error-360: Latent Proprioception for Stable Diffusion Inference**
 A lightweight, inference-time control mechanism that treats diffusion sampling as a **dynamical system** and stabilizes it using *intrinsic* trajectory signals.
