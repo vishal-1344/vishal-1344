@@ -48,8 +48,8 @@ I am particularly interested in systems that:
 - Allocate more computation when instability or uncertainty is detected  
 - Know when to stop, damp, or redirect inference  
 - Adapt internal structure under distribution shift  
-- Maintain coherent organization over long horizons  
-**
+- Maintain coherent organization over long horizons
+
 I take inspiration from **recurrent cortical circuits, neuromodulatory feedback**, and **multi-timescale plasticity**, using tools from dynamical systems and control theory to design models that are **self-monitoring, self-regulating**, and **robust** by construction.
 
 ---
