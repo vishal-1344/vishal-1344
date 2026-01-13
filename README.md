@@ -15,7 +15,7 @@ My work draws on control theory, nonlinear dynamics, signal processing, structur
 Treating inference as a **latent-space trajectory** that can be monitored, regulated, and adjusted online using intrinsic discrepancy signals and stability diagnostics, rather than fixed depth schedules or static heuristics.
 
 ### **Stability, Safety & Early-Warning Diagnostics**
-Designing **lightweight inference-time signals** using Lyapunov-style energies, curvature and jerk indicators, and off-manifold diagnostics—that anticipate failure *before* visible collapse by revealing stress or violation of underlying structural constraints.
+Designing **lightweight inference-time signals** using Lyapunov-style energies, curvature and jerk indicators, and off-manifold diagnostics that anticipate failure *before* visible collapse by revealing stress or violation of underlying structural constraints.
 
 ### **Latent Structure, Geometry & Slow-Timescale Adaptation**
 Studying how **internal representations** and **geometry** evolve under novelty, distribution shift, and prediction error, and how slow-timescale adaptation preserves task-relevant structure while supporting robustness in changing environments.
