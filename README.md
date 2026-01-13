@@ -18,7 +18,7 @@ Treating inference as a **latent-space trajectory** that can be monitored, regul
 Designing **lightweight inference-time signals** using Lyapunov-style energies, curvature and jerk indicators, and off-manifold diagnostics—that anticipate failure *before* visible collapse by revealing stress or violation of underlying structural constraints.
 
 ### **Latent Structure, Geometry & Slow-Timescale Adaptation**
-Studying how **internal representations and geometry** evolve under novelty, distribution shift, and prediction error, and how slow-timescale adaptation preserves task-relevant structure while supporting robustness in changing environments.
+Studying how **internal representations** and **geometry** evolve under novelty, distribution shift, and prediction error, and how slow-timescale adaptation preserves task-relevant structure while supporting robustness in changing environments.
 
 ### **Geometric & Multi-Process Reasoning**
 Modeling cognition as **interacting reasoning processes** coupled through shared geometric structure and interaction dynamics, inspired by recurrent cortical circuits, multi-timescale plasticity, and coordinated control systems.
@@ -52,7 +52,7 @@ I am particularly interested in systems that:
 - Adapt internal structure under distribution shift  
 - Maintain coherent organization over long horizons  
 
-I take inspiration from **recurrent cortical circuits, neuromodulatory feedback, and multi-timescale plasticity**, using tools from dynamical systems and control theory to design models that are **self-monitoring, self-regulating, and robust by construction**.
+I take inspiration from **recurrent cortical circuits, neuromodulatory feedback**, and **multi-timescale plasticity**, using tools from dynamical systems and control theory to design models that are **self-monitoring, self-regulating**, and **robust by construction**.
 
 ---
 
