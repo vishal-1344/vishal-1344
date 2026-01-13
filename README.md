@@ -124,3 +124,67 @@ I take inspiration from **recurrent cortical circuits, neuromodulatory feedback,
 - **Systems:** PyTorch, NumPy/SciPy, Hugging Face ecosystem, FastAPI, Jupyter, Docker, Linux/Bash  
 - **Engineering:** inference-time controllers, trajectory logging, diagnostic instrumentation, experimental harnesses
 
+# Vishal Joshua Meesala
+
+I study intelligence as a **dynamical, interactive process** governed by underlying **invariants**, rather than a static feed-forward computation.  
+My research focuses on **invariant-aware inference**, **stability-regulated reasoning**, and **latent geometric structure** in learned systems.
+
+I investigate how models can identify, monitor, and preserve internal invariants during inference, detect early signs of invariant violation, and regulate computation in closed loop. My work draws on control theory, nonlinear dynamics, signal processing, structured multi-process coordination, and systems neuroscience.
+
+---
+
+## Research
+
+### **Invariant-Aware Adaptive Inference**
+Viewing inference as a **latent-space trajectory constrained by invariants**, where computation is regulated online based on signals that indicate proximity to invariant violation, rather than fixed depth schedules or static heuristics.
+
+### **Stability, Safety & Invariant Violation Diagnostics**
+Designing **lightweight inference-time signals**—Lyapunov-style energies, curvature and jerk indicators, and off-manifold measures—that act as early-warning indicators of **invariant breakdown**, enabling preventative control before visible failure.
+
+### **Latent Structure, Geometry & Invariant Discovery**
+Studying how **latent geometry and internal invariants** emerge, evolve, and adapt under novelty, distribution shift, and prediction error, and how slow-timescale adaptation supports robustness while preserving task-relevant structure.
+
+### **Geometric & Multi-Process Reasoning**
+Modeling cognition as **interacting reasoning processes** coupled through shared invariants and geometric constraints, inspired by recurrent cortical circuits, multi-timescale plasticity, and coordinated control systems.
+
+---
+
+## Active Projects
+
+### **Error-360: Invariant-Aware Proprioception for Stable Diffusion Inference**
+A lightweight, inference-time control mechanism that treats diffusion sampling as a **constrained dynamical system**, stabilized by monitoring signals that reflect **invariant consistency** along the trajectory.
+
+- Introduces a **latent jerk signal** (angular acceleration of update directions) as an early-warning indicator of impending invariant violation  
+- Uses **bounded guidance damping**, **gain scheduling**, and **refractory control** to enforce invariant-respecting updates  
+- Achieves large gains in stability under extreme guidance and adversarial prompts without retraining or added decoding cost  
+- Shows that collapse is preceded by **directional inconsistency**, not simply large update magnitude  
+
+This work reframes diffusion inference as a process of **actively preserving latent invariants**, rather than passively executing a numerical sampler.
+
+→ Repository: `error-360-`
+
+---
+
+## What I Aim to Build
+
+My long-term goal is to develop intelligent systems that **discover, preserve, and adapt internal invariants** governing their reasoning dynamics.
+
+I am particularly interested in systems that:
+
+- Allocate computation when invariants are at risk  
+- Know when to stop, damp, or redirect inference to preserve structure  
+- Adapt internal invariants under distribution shift without catastrophic drift  
+- Maintain coherent organization over long horizons through invariant-respecting dynamics  
+
+I take inspiration from **recurrent cortical circuits, neuromodulatory feedback, and multi-timescale plasticity**, using tools from dynamical systems and control theory to design models that are **invariant-aware, self-regulating, and robust by construction**.
+
+---
+
+## Tools & Technical Experience
+
+- **Mathematics:** nonlinear dynamical systems, Lyapunov theory, invariant manifolds, time-series analysis, geometric signals  
+- **Machine learning:** invariant-aware inference, representation learning, stability diagnostics, test-time control  
+- **Systems:** PyTorch, NumPy/SciPy, Hugging Face ecosystem, FastAPI, Jupyter, Docker, Linux/Bash  
+- **Engineering:** inference-time controllers, trajectory logging, invariant diagnostics, experimental harnesses
+
+
