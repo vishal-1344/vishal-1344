@@ -60,5 +60,5 @@ I take inspiration from **recurrent cortical circuits, neuromodulatory feedback*
 
 - **Mathematics:** nonlinear ODEs and discrete-time dynamical systems, stability of equilibria and invariant sets, Lyapunov-style energy methods, geometric analysis of latent-state trajectories
 - **Machine learning:** adaptive and test-time inference, representation learning, stability-aware reasoning diagnostics
-- **Systems:** PyTorch, NumPy/SciPy, Hugging Face Hub and Spaces, FastAPI, Jupyter, Docker, Linux/Bash
-- **Engineering:** closed-loop inference controllers, trajectory-level logging and analysis, diagnostic instrumentation, controlled experimental harnesses
+- **Systems & Tooling:** PyTorch, NumPy/SciPy, Hugging Face Hub and Spaces, FastAPI, Jupyter, Docker, Linux/Bash
+- **Engineering Practice:** closed-loop inference controllers, trajectory-level logging and analysis, diagnostic instrumentation, controlled experimental harnesses
