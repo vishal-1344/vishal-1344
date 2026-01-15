@@ -21,7 +21,7 @@ Designing lightweight inference-time signals using Lyapunov-style energies, curv
 Studying how internal representations and geometry evolve under novelty, distribution shift, and prediction error, and how slow-timescale adaptation preserves task-relevant structure while supporting robustness in changing environments.
 
 ### **Geometric & Multi-Process Reasoning**
-Modeling cognition as interacting reasoning processes coupled through shared geometric structure and interaction dynamics, inspired by recurrent cortical circuits, multi-timescale plasticity, and coordinated control systems.
+Modeling system cognition as interacting reasoning processes coupled through shared geometric structure and interaction dynamics, inspired by recurrent cortical circuits, multi-timescale plasticity, and coordinated control systems.
 
 ---
 
