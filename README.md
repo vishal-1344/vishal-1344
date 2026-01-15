@@ -1,11 +1,10 @@
 # Vishal Joshua Meesala
 
-I study intelligence as a dynamical, interactive process, rather than a static feed-forward computation.  
-My research focuses on **adaptive inference**, **stability-aware reasoning**, and **latent geometric structure** in learned systems.
+I study reasoning and inference as dynamical, interactive processes. My research focuses on **adaptive inference**, **stability-aware reasoning**, and the **geometric structure of latent representations** in learned systems.
 
-A recurring theme in my work is the role of **invariants**: stable structural properties that govern how inference trajectories evolve, fail, or remain coherent over time. I investigate how models can monitor their own inference dynamics, detect early signs of instability or invariant stress, and regulate computation in closed loop.
+A recurring theme in my work is the role of **invariants**, understood as stable structural porperties that govern how inference trajectories evolve, fail, or remain coherent over time. I investigate how models can monitor their own inference dynamics, detect early signs of instability or structural stress, and regulate compuation in closed loop. 
 
-My work draws on control theory, nonlinear dynamics, signal processing, structured multi-process coordination, and systems neuroscience.
+My work draws on **control theory**, **nonlinear dynamics**, **signal processing**, **structured multi-process coordination**, and **system neuroscience**
 
 ---
 
