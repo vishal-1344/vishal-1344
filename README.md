@@ -43,7 +43,7 @@ This work reframes diffusion inference as a **regulated dynamical process**, sho
 
 ## What I Aim to Build
 
-My long-term goal is to help develop intelligent systems that move beyond static feed-forward pipelines and instead support **dynamically regulated, structurally adaptive reasoning**.
+My long-term goal is to develop a rich, modulatory, and adaptive framework for system-level reasoning, in which inference dynamics are actively controlled and regulated by shared geometric structure.
 
 I am particularly interested in systems that:
 
