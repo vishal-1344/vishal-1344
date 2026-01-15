@@ -47,12 +47,12 @@ My long-term goal is to help develop intelligent systems that move beyond static
 
 I am particularly interested in systems that:
 
-- Allocate computation when instability or uncertainty is detected  
-- Know when to stop, damp, or redirect inference  
-- Adapt internal structure under distribution shift  
-- Maintain coherent organization over long horizons  
+- Allocate computation in response to internal instability or uncertainty
+- Regulate inference by stopping, damping, or redirecting trajectories when necessary  
+- Adapt internal structure under distribution shift while preserving stability  
+- Maintain coherent organization over long reasoning horizons
 
-I take inspiration from **recurrent cortical circuits, neuromodulatory feedback**, and **multi-timescale plasticity**, using tools from dynamical systems and control theory to design models that are **self-monitoring, self-regulating**, and **robust by construction**.
+I draw inspiration from **recurrent cortical circuits, neuromodulatory feedback**, and **multi-timescale plasticity**. Using tools from **nonlinear dynamics** and **control**, I aim to design models that are **self-monitoring, self-regulating**, and **robust by construction**.
 
 ---
 
