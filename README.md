@@ -2,7 +2,7 @@
 
 I study reasoning and inference as **dynamical**, **interactive processes**. My research focuses on **adaptive inference**, **stability-aware reasoning**, and **geometric structure of latent representations** in learned systems.
 
-A recurring theme in my work is the role of **invariants**, understood as stable structural porperties that govern how inference trajectories evolve, fail, or remain coherent over time. I investigate how models can monitor their own inference dynamics, detect early signs of instability or structural stress, and regulate compuation in closed loop. 
+A recurring theme in my work is the role of **invariants**, understood as stable structural properties that govern how inference trajectories evolve, fail, or remain coherent over time. I investigate how models can monitor their own inference dynamics, detect early signs of instability or structural stress, and regulate compuation in closed loop. 
 
 My work draws on **control theory**, **nonlinear dynamics**, **signal processing**, **structured multi-process coordination**, and **system neuroscience**
 
