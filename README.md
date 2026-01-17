@@ -51,7 +51,7 @@ I am particularly interested in systems that:
 - Adapt internal structure under distribution shift while preserving stability  
 - Maintain coherent organization over long reasoning horizons
 
-I draw inspiration from **recurrent cortical circuits, neuromodulatory feedback**, and **multi-timescale plasticity**. Using tools from **nonlinear dynamics** and **control**, I aim to design models that are **self-monitoring, self-regulating**, and **robust by construction**.
+I draw inspiration from **recurrent cortical circuits, neuromodulatory feedback**, and **multi-timescale plasticity**. Using tools from **nonlinear dynamics** and **control**, I aim to design models that are *self-monitoring, self-regulating, and robust* by construction.
 
 ---
 
