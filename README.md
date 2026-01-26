@@ -43,7 +43,7 @@ Modeled agents as dual-timescale dynamical systems coupling fast inference dynam
 
 → Repository: `lisa`
 
-## **Slow Deliberate Indulgence: Budgeted Deliberation as a Wrapper**
+### **Slow Deliberate Indulgence: Budgeted Deliberation as a Wrapper**
 Developing a deployable inference wrapper around standard backbones that separates fast proposal from slow verification. Uses stability checks and proxy energies as stopping criteria for refinement, enabling anytime behavior under explicit compute budgets and producing an Indulgence Score that measures deliberation required for convergence.
 
 ---
