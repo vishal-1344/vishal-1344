@@ -10,16 +10,16 @@ My work draws on **control theory**, **nonlinear dynamics**, **signal processing
 
 ## Research
 
-  ### **Adaptive Inference & Closed-Loop Reasoning**
+  ### **Adaptive Inference & Closed-Loop Regulation**
   Treat inference as a latent-space trajectory and design monitoring-and-feedback mechanisms that modulate inference dynamics online. This replaces fixed-depth schedules with budgeted, conditional computation driven by intrinsic discrepancy signals and stability diagnostics.
   
   ### **Stability, Safety & Early-Warning Diagnostics**
   Develop low-overhead inference-time signals based on Lyapunov-style proxy energies and trajectory geometry consisting of curvature proxies, angular velocity, jerk, divergence to detect structural stress before visible failure. These signals support bounded interventions such as damping, redirection, early stopping, abstention, and refinement.
   
-  ### **Latent Structure, Geometry & Slow-Timescale Adaptation**
+  ### **Latent Geometry & Slow-Timescale Adaptation**
   Study how internal representations evolve under novelty, prediction error, and shift, and how slow-timescale adaptation can preserve manifold structure while maintaining task-relevant organization. The emphasis is on controlled adaptation rather than unconstrained parameter updates.
   
-  ### **Geometric & Multi-Process Reasoning**
+  ### **Multi-Process Reasoning and Coordinated Dynamics**
   Model system cognition interacting inference processes coupled through shared geometric structure and coordination dynamics, motivated by recurrent cortical computation, multi-timescale plasticity, and modular control architectures.
   
   ---
@@ -37,6 +37,14 @@ A lightweight, inference-time control mechanism that treats diffusion sampling a
 This work reframes diffusion inference as a **regulated dynamical process**, showing how internal *proprioceptive* signals can support robust, low-cost control.
 
 → Repository: `error-360-`
+
+### **LISA: Latent Invariant Space Adaptation**
+Modeled agents as dual-timescale dynamical systems coupling fast inference dynamics to slow structural updates that preserve latent invariants under drift. Implemented energy-based adaptation rules with gated modulators, including Perceptual Gravity and Synthetic Dopamine, to regulate structural change under novelty.
+
+→ Repository: `lisa`
+
+## **Slow Deliberate Indulgence: Budgeted Deliberation as a Wrapper**
+Developing a deployable inference wrapper around standard backbones that separates fast proposal from slow verification. Uses stability checks and proxy energies as stopping criteria for refinement, enabling anytime behavior under explicit compute budgets and producing an Indulgence Score that measures deliberation required for convergence.
 
 ---
 
