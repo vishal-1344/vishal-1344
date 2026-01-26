@@ -1,8 +1,8 @@
 # Vishal Joshua Meesala
 
-I study reasoning and inference as *dynamical, interactive processes*. My research focuses on **adaptive inference**, **stability-aware reasoning**, and **geometric structure** of *latent representations* in learned systems.
+I study machine cognition through **adaptive inference**. My work treats reasoning and generation as **latent dynamical processes** and develops inference-time mechanisms that evaluate the adequacy of ongoing computation, regulate it under uncertainty, and allocate additional deliberation only when required. The goal is to extend modern foundation models with deployable control layers that improve stability and competence under distribution shift and long-horizon inference.
 
-A recurring theme in my work is the role of **invariants**, understood as stable structural properties that govern how inference trajectories evolve, fail, or remain coherent over time. I investigate how models can monitor their own inference dynamics, detect early signs of instability or structural stress, and regulate compuation in closed loop. 
+A recurring theme in my work is the role of **invariants**, understood as stable structural properties that preserve coherence as internal trajectories evolve. I study how such structure arises in learned systems, how it fails, and how lightweight signals derived from latent geometry can serve as internal diagnostics for monitoring and regulation. 
 
 My work draws on **control theory**, **nonlinear dynamics**, **signal processing**, **structured multi-process coordination**, and **system neuroscience**
 
@@ -10,19 +10,19 @@ My work draws on **control theory**, **nonlinear dynamics**, **signal processing
 
 ## Research
 
-### **Adaptive Inference & Closed-Loop Reasoning**
-Treating inference as a latent-space trajectory that can be monitored, regulated, and adjusted online using intrinsic discrepancy signals and stability diagnostics, rather than fixed depth schedules or static heuristics.
-
-### **Stability, Safety & Early-Warning Diagnostics**
-Designing lightweight inference-time signals using Lyapunov-style energies, curvature and jerk indicators, and off-manifold diagnostics that anticipate failure *before* visible collapse by revealing stress or violation of underlying structural constraints.
-
-### **Latent Structure, Geometry & Slow-Timescale Adaptation**
-Studying how internal representations and geometry evolve under novelty, distribution shift, and prediction error, and how slow-timescale adaptation preserves task-relevant structure while supporting robustness in changing environments.
-
-### **Geometric & Multi-Process Reasoning**
-Modeling system cognition as interacting reasoning processes coupled through shared geometric structure and interaction dynamics, inspired by recurrent cortical circuits, multi-timescale plasticity, and coordinated control systems.
-
----
+  ### **Adaptive Inference & Closed-Loop Reasoning**
+  Treat inference as a latent-space trajectory and design monitoring-and-feedback mechanisms that modulate inference dynamics online. This replaces fixed-depth schedules with budgeted, conditional computation driven by intrinsic discrepancy signals and stability diagnostics.
+  
+  ### **Stability, Safety & Early-Warning Diagnostics**
+  Develop low-overhead inference-time signals based on Lyapunov-style proxy energies and trajectory geometry consisting of curvature proxies, angular velocity, jerk, divergence to detect structural stress before visible failure. These signals support bounded interventions such as damping, redirection, early stopping, abstention, and refinement.
+  
+  ### **Latent Structure, Geometry & Slow-Timescale Adaptation**
+  Study how internal representations evolve under novelty, prediction error, and shift, and how slow-timescale adaptation can preserve manifold structure while maintaining task-relevant organization. The emphasis is on controlled adaptation rather than unconstrained parameter updates.
+  
+  ### **Geometric & Multi-Process Reasoning**
+  Model system cognition interacting inference processes coupled through shared geometric structure and coordination dynamics, motivated by recurrent cortical computation, multi-timescale plasticity, and modular control architectures.
+  
+  ---
 
 ## Active Projects
 
@@ -42,14 +42,14 @@ This work reframes diffusion inference as a **regulated dynamical process**, sho
 
 ## What I Aim to Build
 
-My long-term goal is to develop a rich, modulatory, and adaptive framework for system-level reasoning, in which inference dynamics are actively controlled and regulated by shared geometric structure.
+My long-term goal is a principled framework for system-level reasoning in which inference is treated as a regulated dynamical computation. The systems I am interested in allocate computation adaptively, maintain invariants under shift, and remain stable over long horizons through monitoring and feedback rather than retraining.
 
-I am particularly interested in systems that:
+Concretely, I am interested in architectures that:
 
-- Allocate computation in response to internal instability or uncertainty
-- Regulate inference by stopping, damping, or redirecting trajectories when necessary  
-- Adapt internal structure under distribution shift while preserving stability  
-- Maintain coherent organization over long reasoning horizons
+- Allocate compute based on intrinsic instability or insufficiency
+- Enforce bounded behavior through damping, refinement, abstention, or early stopping  
+- Preserve latent structure under drift via slow-timescale adaptation
+- Expose interpretable internal commitments that support governance and debugging
 
 I draw inspiration from **recurrent cortical circuits, neuromodulatory feedback**, and **multi-timescale plasticity**. Using tools from **nonlinear dynamics** and **control**, I aim to design models that are *self-monitoring, self-regulating, and robust* by construction.
 
