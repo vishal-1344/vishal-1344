@@ -39,7 +39,7 @@ This work reframes diffusion inference as a **regulated dynamical process**, sho
 → Repository: `error-360-`
 
 ### **LISA: Latent Invariant Space Adaptation**
-Modeled agents as dual-timescale dynamical systems coupling fast inference dynamics to slow structural updates that preserve latent invariants under drift. Implemented energy-based adaptation rules with gated modulators, including Perceptual Gravity and Synthetic Dopamine, to regulate structural change under novelty.
+Modeled agents as dual-timescale dynamical systems coupling fast inference dynamics with slow structural adaptation that preserves latent invariants under distributional drift. Energy-based adaptation is regulated by internal control signals that bias updates toward invariant-supporting latent structure and gate plasticity based on internally detected novelty, formalized as Perceptual Gravity and Synthetic Dopamine.
 
 → Repository: `lisa`
 
