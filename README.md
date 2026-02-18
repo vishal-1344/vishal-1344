@@ -11,7 +11,7 @@ My work draws on **control theory**, **nonlinear dynamics**, **signal processing
 ## Research
 
   ### **Adaptive Inference & Closed-Loop Regulation**
-  Treat inference as a latent-space trajectory and design monitoring-and-feedback mechanisms that modulate inference dynamics online. This replaces fixed-depth schedules with budgeted, conditional computation driven by intrinsic discrepancy signals and stability diagnostics.
+  Treat inference as a latent-space trajectory and design monitoring-and-feedback mechanisms that modulate inference dynamics online. This relaxes fixed-depth schedules with budgeted, conditional computation driven by intrinsic discrepancy signals and stability diagnostics.
   
   ### **Stability & Early-Warning Diagnostics**
   Develop low-overhead inference-time signals based on Lyapunov-style proxy energies and trajectory geometry consisting of curvature proxies, angular velocity, jerk, divergence to detect structural stress before visible failure. These signals support bounded interventions such as damping, redirection, early stopping, abstention, and refinement.
