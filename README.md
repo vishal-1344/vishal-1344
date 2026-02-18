@@ -1,6 +1,6 @@
 # Vishal Joshua Meesala
 
-I study machine cognition through **adaptive inference**. My work treats reasoning and generation as **latent dynamical processes** and develops inference-time mechanisms that evaluate the adequacy of ongoing computation, regulate it under uncertainty, and allocate additional deliberation only when required. The goal is to extend modern foundation models with deployable control layers that improve stability and competence under distribution shift and long-horizon inference.
+I study machine cognition through **adaptive inference**. My work treats reasoning and generation as **latent dynamical processes** and develops inference-time mechanisms that evaluate the adequacy of ongoing computation, regulate it under uncertainty, and allocate additional deliberation when weighted. The goal is to extend existing foundation models with deployable control layers that improve stability and competence under distribution shift and long-horizon inference.
 
 A recurring theme in my work is the role of **invariants**, understood as stable structural properties that preserve coherence as internal trajectories evolve. I study how such structure arises in learned systems, how it fails, and how lightweight signals derived from latent geometry can serve as internal diagnostics for monitoring and regulation. 
 
