@@ -20,7 +20,7 @@ My work draws on **control theory**, **nonlinear dynamics**, **signal processing
   Study how internal representations evolve under novelty, prediction error, and shift, and how slow-timescale adaptation can preserve manifold structure while maintaining task-relevant organization. The approach leans toward controlled adaptation over unconstrained parameter updates.
   
   ### **Multi-Process Reasoning & Coordinated Dynamics**
-  Model system cognition interacting inference processes coupled through shared geometric structure and coordination dynamics, motivated by recurrent cortical computation, multi-timescale plasticity, and modular control architectures.
+  Model system cognition interacting inference processes coupled through shared geometric structure and coordination dynamics, inspired by recurrent cortical computation, multi-timescale plasticity, and modular control architectures.
   
   ---
 
