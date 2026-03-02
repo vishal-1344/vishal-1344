@@ -1,6 +1,6 @@
 # Vishal Joshua Meesala
 
-## High-Stakes Symbiotic Machine Intelligence
+## High-Stake Symbiotic Machine Intelligence
 
 I study machine cognition through adaptive inference, treating neural reasoning as a latent dynamical process that can be monitored and regulated in operational time. My research focuses on equipping foundation models with inference-time control mechanisms that evaluate the stability of ongoing inference and adaptively modulate computational depth under severe distributional shift. By integrating principles from nonlinear dynamics, control theory, and systems neuroscience, I design architectures that intrinsically respect structural invariants and maintain systemic homeostasis. The goal of this work is to engineer metabolically regulated, event-critical cognitive systems capable of reliable deployment in high-stakes operations where state transitions are irreversible.
 
