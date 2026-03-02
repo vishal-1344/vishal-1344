@@ -51,7 +51,7 @@ I aim to establish a principled framework for system-level reasoning that formal
 
 ## Tools & Technical Primitives
 
-**Machine Learning**: Adaptive and test-time inference (inference-time scaling), invariant representation learning, foundation model internals, structured multi-process coordination.
+**Machine Learning**: Adaptive and inference-time scaling, invariant representation learning, foundation model internals, structured multi-process coordination.
 
 **Mathematics**: Nonlinear ODEs and discrete-time dynamical systems, Lyapunov stability theory, geometric analysis of latent-state trajectories, constraint projections.
 
