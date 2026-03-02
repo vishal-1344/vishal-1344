@@ -1,71 +1,60 @@
 # Vishal Joshua Meesala
 
-I study machine cognition through **adaptive inference**. My work treats reasoning and generation as **latent dynamical processes** and develops inference-time mechanisms that evaluate the adequacy of ongoing computation, regulate it under uncertainty, and allocate additional deliberation when weighted. The goal is to extend existing foundation models with deployable control layers that improve stability and competence under distribution shift and long-horizon inference.
+## High-Stakes Symbiotic Machine Intelligence (SMI)
 
-A recurring theme in my work is the role of **invariants**, understood as stable structural properties that preserve coherence as internal trajectories evolve. I study how such structure arises in learned systems, how it fails, and how lightweight signals derived from latent geometry can serve as internal diagnostics for monitoring and regulation. 
-
-My work draws on **control theory**, **nonlinear dynamics**, **signal processing**, **structured multi-process coordination**, and **system neuroscience**
+I study machine cognition through adaptive inference, treating neural reasoning as a latent dynamical process that can be monitored and regulated in operational time. My research focuses on equipping foundation models with inference-time control mechanisms that evaluate the stability of ongoing inference and adaptively modulate computational depth under severe distributional shift. By integrating principles from nonlinear dynamics, control theory, and systems neuroscience, I design architectures that intrinsically respect structural invariants and maintain systemic homeostasis. The goal of this work is to engineer metabolically regulated, event-critical cognitive systems capable of reliable deployment in high-stakes operations where state transitions are irreversible.
 
 ---
 
-## Research
+## Research Program
 
-  ### **Adaptive Inference & Closed-Loop Regulation**
-  Treat inference as a latent-space trajectory and design monitoring-and-feedback mechanisms that modulate inference dynamics online. This relaxes fixed-depth schedules with budgeted, conditional computation driven by intrinsic discrepancy signals and stability diagnostics.
-  
-  ### **Stability & Early-Warning Diagnostics**
-  Develop low-overhead inference-time signals based on Lyapunov-style proxy energies and trajectory geometry consisting of curvature proxies, angular velocity, jerk, divergence to detect structural stress before visible failure. These signals support bounded interventions such as damping, redirection, early stopping, abstention, and refinement.
-  
-  ### **Latent Geometry & Slow-Timescale Adaptation**
-  Study how internal representations evolve under novelty, prediction error, and shift, and how slow-timescale adaptation can preserve manifold structure while maintaining task-relevant organization. The approach leans toward controlled adaptation over unconstrained parameter updates.
-  
-  ### **Multi-Process Reasoning & Coordinated Dynamics**
-  Model system cognition interacting inference processes coupled through shared geometric structure and coordination dynamics, inspired by recurrent cortical computation, multi-timescale plasticity, and modular control architectures.
-  
-  ---
+My research operationalizes inference-time control layers to enforce stability guarantees and preserve structural coherence under severe distributional shift and long-horizon execution.
+
+### Latent-Space Meta-Proprioception
+
+Closed-loop computational regulation requires continuous evaluation of ongoing inference. Building upon the biological paradigm of proprioception, I formulate proxy energy functionals $V(x_k)$ as low-overhead, intrinsic diagnostic signals for reasoning stability. This enables models to dynamically measure the geometric integrity of their state trajectories. By quantifying structural stress through curvature proxies, angular velocity, and divergence, the system detects latent instability prior to macroscopic failure.
+
+### Inference-Time Regulation & Architectural Reflex Arcs
+
+Coupled with meta-proprioceptive monitoring, I design event-triggered control layers that govern latent dynamics. Upon detecting trajectory instability, these architectural reflex arcs autonomously intervene to throttle propagation, dynamically scale test-time compute for high-entropy states, execute principled abstention, or initiate safe human-in-the-loop fallback policies. This framework supersedes static, open-loop decoding schedules in favor of metabolically efficient, conditional computation.
+
+### Multi-Perceptual Timescale Adaptation
+
+Central to my architecture is the enforcement of invariants: stable structural constraints that preserve coherence across state evolution. I analyze multi-timescale systems where fast inference dynamics $z_t$ are coupled with slow parametric updates $\Theta_t$. Modulated by the integration of internal stability signals and external discrepancy metrics, this multi-perceptual feedback loop governs structural plasticity. Under high-stakes conditions, it triggers one-shot latent invariant projections that monotonically bound the admissible latent region $\mathcal{A}(\Theta)$. This ensures that fundamental geometric constraints remain invariant as the system acclimatizes to unmapped domains.
+
+### Morpho-Semantic Cognitive Substrates
+
+To achieve competence-level reasoning, I augment the unconstrained natural-language generation of current models with representational substrates that explicitly encode causality, agency, and epistemic justification. I propose role-explicit cognitive substrates that operationalize the strict morpho-syntactic rigidity found in structurally unambiguous human languages. This bifurcated framework isolates reflective hypothesis formation from rigorous, control-level commitments, thereby enabling programmatic governance and precise interpretability without degrading the model's generative expressivity.
+
+---
 
 ## Active Projects
 
-### **Error-360: Latent Proprioception for Stable Diffusion Inference**
-A lightweight, inference-time control mechanism that treats diffusion sampling as a dynamical system and stabilizes it using *intrinsic trajectory signals*.
+### LISA: Latent Invariant Space Adaptation
 
-- Introduces a **latent jerk signal** (angular acceleration of update directions) as an early-warning indicator of impending structural collapse  
-- Uses **bounded guidance damping**, **gain scheduling**, and **refractory control** to prevent runaway instability  
-- Achieves large gains in stability under extreme guidance and adversarial prompts without retraining or added decoding cost  
-- Demonstrates that collapse is preceded by **directional inconsistency**, not merely large update magnitude  
+Formulated agents as dual-timescale dynamical systems, coupling fast inference trajectories with slow parametric adaptation to preserve latent invariants under severe distributional drift. This energy-based adaptation is modulated by intrinsic control signals that bias parameter updates toward invariant-supporting subspaces. By formalizing internally detected novelty as Perceptual Gravity and Synthetic Dopamine, the mechanism mathematically gates plasticity, effectively preempting catastrophic off-manifold drift.
 
-This work reframes diffusion inference as a **regulated dynamical process**, showing how internal *proprioceptive* signals can support robust, low-cost control.
+→ **Repository**: [lisa](https://github.com/vishal-1344/lisa)
+---
 
-→ Repository: `error-360-`
+## The Vision: Event-Critical Symbiosis
 
-### **LISA: Latent Invariant Space Adaptation**
-Modeled agents as dual-timescale dynamical systems coupling fast inference dynamics with slow structural adaptation that preserves latent invariants under distributional drift. Energy-based adaptation is regulated by internal control signals that bias updates toward invariant-supporting latent structure and gate plasticity based on internally detected novelty, formalized as Perceptual Gravity and Synthetic Dopamine.
+I aim to establish a principled framework for system-level reasoning that formalizes inference as a rigorously regulated dynamical computation. I engineer cognitive architectures designed to:
 
-→ Repository: `lisa`
+- **Treat computation as a bounded metabolic resource**: Natively minimizing operational energy during low-discrepancy tasks while dynamically scaling test-time deliberation for high-entropy inputs.
 
-### **Slow Deliberate Indulgence: Budgeted Deliberation as a Wrapper**
-Developing a deployable inference wrapper around standard backbones that separates fast proposal from slow verification. Uses stability checks and proxy energies as stopping criteria for refinement, enabling anytime behavior under explicit compute budgets and producing an Indulgence Score that measures deliberation required for convergence.
+- **Maintain systemic homeostasis**: Enforcing bounded operational behavior through mathematically verified damping, trajectory refinement, and triggered abstention protocols.
+
+- **Enable event-critical symbiosis**: Translating latent instability into interpretable boundary signals for human operators, establishing the model as a deeply trusted partner during safety-critical execution and complex scientific discovery.
 
 ---
 
-## What I Aim to Build
+## Tools & Technical Primitives
 
-My long-term goal is a principled framework for system-level reasoning in which inference is treated as a regulated dynamical computation. The systems I am interested in allocate computation adaptively, maintain invariants under shift, and remain stable over long horizons through monitoring and feedback rather than retraining.
+**Machine Learning**: Adaptive and test-time inference (inference-time scaling), invariant representation learning, foundation model internals, structured multi-process coordination.
 
-Concretely, I am interested in architectures that:
+**Mathematics**: Nonlinear ODEs and discrete-time dynamical systems, Lyapunov stability theory, geometric analysis of latent-state trajectories, constraint projections.
 
-- Allocate compute based on intrinsic instability or insufficiency
-- Enforce bounded behavior through damping, refinement, abstention, or early stopping  
-- Preserve latent structure under drift via slow-timescale adaptation
-- Expose interpretable internal commitments that support governance and debugging
+**Systems Engineering**: Closed-loop inference controllers, trajectory-level logging and stability benchmarking, diagnostic instrumentation, automated simulation pipelines.
 
-I draw inspiration from **recurrent cortical circuits, neuromodulatory feedback**, and **multi-timescale plasticity**. Using tools from **nonlinear dynamics** and **control**, I aim to design models that are *self-monitoring, self-regulating, and robust* by construction.
-
----
-
-## Tools & Technical Experience
-
-- **Mathematics:** nonlinear ODEs and discrete-time dynamical systems, stability of equilibria and invariant sets, Lyapunov-style energy methods, geometric analysis of latent-state trajectories
-- **Machine learning:** adaptive and test-time inference, invariant representation learning, stability-aware reasoning diagnostics
-- **Systems & Tooling:** PyTorch, NumPy/SciPy, Hugging Face Hub and Spaces, FastAPI, Jupyter, Docker, Linux/Bash
-- **Engineering Practice:** closed-loop inference controllers, trajectory-level logging and analysis, diagnostic instrumentation, controlled experimental harnesses
+**Software & Tooling**: PyTorch, NumPy/SciPy, Hugging Face ecosystem (Hub, Spaces, ZeroGPU), FastAPI, Jupyter, Linux/Bash.
