@@ -37,7 +37,7 @@ Formulated agents as dual-timescale dynamical systems, coupling fast inference t
 → **Repository**: [lisa](https://github.com/vishal-1344/lisa)
 ---
 
-## Vision: Event-Critical Symbiosis
+## Vision
 
 I aim to establish a principled framework for system-level reasoning that formalizes inference as a rigorously regulated dynamical computation. I engineer cognitive architectures designed to:
 
