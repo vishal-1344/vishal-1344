@@ -6,7 +6,7 @@ I study machine cognition through adaptive inference, treating neural reasoning 
 
 ---
 
-## Research Program
+## Research
 
 My research operationalizes inference-time control layers to enforce stability guarantees and preserve structural coherence under severe distributional shift and long-horizon execution.
 
