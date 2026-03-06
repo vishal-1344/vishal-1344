@@ -1,6 +1,6 @@
 # Vishal Joshua Meesala
 
-## High-Stake Symbiotic Machine Intelligence
+## Symbiotic Machine Intelligence
 
 I study machine cognition through adaptive inference, treating neural reasoning as a latent dynamical process that can be monitored and regulated at operational timeframes. My research focuses on equipping foundation models with inference-time control mechanisms that evaluate the stability of ongoing inference and adaptively modulate computational depth under severe distributional shift. By integrating principles from nonlinear dynamics, control theory, and systems neuroscience, I design architectures that intrinsically respect structural invariants and maintain systemic homeostasis. The goal of this work is to engineer metabolically regulated, event-critical cognitive systems capable of reliable deployment in high-stakes operations where state transitions are irreversible.
 
@@ -32,7 +32,7 @@ To achieve competence-level reasoning, I augment the unconstrained natural-langu
 
 ### LISA: Latent Invariant Space Adaptation
 
-Formulated agents as dual-timescale dynamical systems, coupling fast inference trajectories with slow parametric adaptation to preserve latent invariants under severe distributional drift. This energy-based adaptation is modulated by intrinsic control signals that bias parameter updates toward invariant-supporting subspaces. By formalizing internally detected novelty as Perceptual Gravity and Synthetic Dopamine, the mechanism mathematically gates plasticity, effectively preempting catastrophic off-manifold drift.
+Formalized agents as singularly perturbed, dual-timescale dynamical systems that couple fast inference trajectories with slow parametric adaptation to preserve latent invariants under severe distributional drift. This energy-based adaptation framework utilizes intrinsic control signals to bias parameter updates toward invariant-supporting subspaces. By operationalizing internally detected novelty through the functional mechanisms of Perceptual Gravity and Synthetic Dopamine, the architecture mathematically gates plasticity to preempt catastrophic off-manifold drift and maintain systemic homeostasis.
 
 → **Repository**: [lisa](https://github.com/vishal-1344/lisa)
 ---
