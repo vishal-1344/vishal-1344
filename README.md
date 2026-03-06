@@ -12,7 +12,7 @@ My research operationalizes inference-time control layers to enforce stability g
 
 ### Latent-Space Meta-Proprioception
 
-Closed-loop computational regulation requires continuous evaluation of ongoing inference. Building upon the biological paradigm of proprioception, I formulate proxy energy functionals $V(x_k)$ as low-overhead, intrinsic diagnostic signals for reasoning stability. This enables models to dynamically measure the geometric integrity of their state trajectories relative to dynamically inferred Backward Reachable Tubes (BRTs). By quantifying structural stress through curvature proxies, angular velocity, and latent environmental momentum, the system detects latent instability prior to macroscopic failure, effectively performing online reachability estimation without relying on rigid analytic priors.
+Closed-loop computational regulation requires continuous evaluation of ongoing inference. Building upon the biological paradigm of proprioception, I formulate proxy energy functionals $V(x_k)$ as low-overhead, intrinsic diagnostic signals for reasoning stability. This enables models to dynamically measure the geometric integrity of their state trajectories relative to dynamically inferred Backward Reachable Tubes (BRTs). By quantifying structural stress through curvature proxies, angular velocity, and latent environmental momentum, the system detects latent instability prior to macroscopic failure, effectively performing online reachability estimation, in the absence of rigid analytic priors.
 
 ### Inference-Time Regulation & Architectural Reflex Arcs
 
