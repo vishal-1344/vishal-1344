@@ -32,7 +32,7 @@ To achieve competence-level reasoning, I augment the unconstrained natural-langu
 
 ### Latent Invariant Space Adaptation
 
-Formalized agents as singularly perturbed, dual-timescale dynamical systems that couple fast inference trajectories with slow parametric adaptation to preserve latent invariants under severe distributional drift. This energy-based adaptation framework utilizes intrinsic control signals to bias parameter updates toward invariant-supporting subspaces. By operationalizing internally detected novelty through the functional mechanisms of Perceptual Gravity and Synthetic Dopamine, the architecture mathematically gates plasticity to preempt catastrophic off-manifold drift and maintain systemic homeostasis.
+Formalized neural inference as a governed flow through latent geometry within high-dimensional, non-stationary environments. This symbiotic architecture treats the underlying model and regulatory layer as a sampled-data singularly perturbed system, coupling fast behavioral inference with slow structural adaptation. By utilizing learned Koopman embeddings to monitor innovation energy, the framework autonomously detects geometric regime shifts prior to output divergence. LISA integrates these fast-scale geometric audits with event-triggered discrete-time control barrier functions projected into low-rank intervention subspaces. This mechanism mathematically gates structural plasticity and enforces uniform ultimate boundedness, preempting catastrophic off-manifold drift and maintaining representational homeostasis under severe distributional drift.
 
 → [lisa](https://github.com/vishal-1344/lisa)
 ---
