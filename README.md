@@ -10,9 +10,8 @@ I study machine cognition through adaptive inference, treating neural reasoning 
 
 My research operationalizes dual-timescale, closed-loop control layers to enforce trajectory stability and preserve structural coherence under severe distributional shift and long-horizon execution, augmenting existing test-time scaling methodologies.
 
-### Latent-Space Meta-Proprioception
-
-Closed-loop computational regulation requires continuous evaluation of ongoing inference. Building upon the biological paradigm of proprioception, I formulate proxy energy functionals $V(x_k)$ as low-overhead, intrinsic diagnostic signals for reasoning stability. This enables models to dynamically measure the geometric integrity of their state trajectories via Koopman operator theory and Innovation Energy ($E_k$). By quantifying structural stress through curvature proxies, angular velocity, and latent environmental momentum, the system detects latent instability prior to macroscopic failure. This mechanism provides online reachability estimation without rigid analytic priors, establishing an upstream safety filter that complements downstream probabilistic metrics.
+### Predictive Geometric Auditing
+Closed-loop computational regulation requires models to actively forecast reasoning collapse before it manifests in output generation. I formulate proxy energy functionals $V(x_k)$ as low-overhead, intrinsic diagnostic signals that quantify structural stress in real-time. Functioning as a form of latent-space meta-proprioception, this mechanism enables models to dynamically measure the geometric integrity of their state trajectories via Koopman operator theory and Innovation Energy ($E_k$). By evaluating curvature proxies, angular velocity, and latent environmental momentum, the system does not passively monitor state; it actively anticipates catastrophic off-manifold drift prior to macroscopic failure. This provides online reachability estimation without rigid analytic priors, establishing a predictive, pre-token safety filter that fundamentally supersedes the latency and blindness of downstream probabilistic metrics.
 
 ### Inference-Time Regulation & Architectural Reflex Arcs
 
@@ -35,12 +34,6 @@ To achieve competence-level reasoning, I augment the natural-language generation
 Formalized neural inference as a governed flow through latent geometry within high-dimensional, non-stationary environments. This symbiotic architecture treats the underlying model and regulatory layer as a sampled-data singularly perturbed system, coupling fast behavioral inference with slow structural adaptation. By utilizing learned Koopman embeddings to monitor innovation energy, the framework autonomously detects geometric regime shifts prior to output divergence. LISA integrates these fast-scale geometric audits with event-triggered discrete-time control barrier functions projected into low-rank intervention subspaces. This mechanism mathematically gates structural plasticity and enforces uniform ultimate boundedness, preempting catastrophic off-manifold drift and maintaining representational homeostasis under severe distributional drift to augment established inference protocols. Empirically validated to detect trajectory divergence with an AUROC of 0.86 prior to token hallucination, operating with sub-10ms latency overhead.
 
 → **Repository**: [lisa](https://github.com/vishal-1344/lisa)
-
-### 9 Owls: Geometric Multi-Agent Cognitive Engine
-
-A distributed multi-agent cognitive system that models intelligence as a resonant state emerging from the synchronization of nine autonomous entities inhabiting a shared geometric manifold. The system utilizes Thomson/Tammes geometry, Kuramoto synchronization, and Langevin dynamics to govern information flow, enabling anti-bias exploration, distributed perception, and resilient consensus formation for high-stakes scientific discovery and interdisciplinary synthesis.
-
-→ **Repository**: [9-owls](https://github.com/vishal-1344/9-owls)
 
 ---
 
