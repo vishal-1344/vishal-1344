@@ -1,4 +1,4 @@
-# Vishal Joshua Meesala
+  # Vishal Joshua Meesala
 
 ## Symbiotic Machine Intelligence
 
@@ -11,11 +11,12 @@ I study machine cognition through adaptive inference, treating neural reasoning 
 My research operationalizes dual-timescale, closed-loop control layers to enforce trajectory stability and preserve structural coherence under severe distributional shift and long-horizon execution, augmenting existing test-time scaling methodologies.
 
 ### Predictive Geometric Auditing
+
 Closed-loop computational regulation requires models to actively forecast reasoning collapse before it manifests in output generation. I formulate proxy energy functionals $V(x_k)$ as low-overhead, intrinsic diagnostic signals that quantify structural stress in real-time. Functioning as a form of latent-space meta-proprioception, this mechanism enables models to dynamically measure the geometric integrity of their state trajectories via Koopman operator theory and Innovation Energy ($E_k$). By evaluating curvature proxies, angular velocity, and latent environmental momentum, the system does not passively monitor state; it actively anticipates catastrophic off-manifold drift prior to macroscopic failure. This provides online reachability estimation without rigid analytic priors, establishing a predictive, pre-token safety filter that fundamentally supersedes the latency and blindness of downstream probabilistic metrics.
 
-### Inference-Time Regulation & Architectural Reflex Arcs
+### Inference-Time Regulation and Architectural Reflex Arcs
 
-Coupled with meta-proprioceptive monitoring, I design event-triggered control layers that govern latent dynamics. Upon detecting trajectory instability or imminent boundary collisions, these architectural reflex arcs autonomously intervene via optimal control projections. They throttle propagation, dynamically scale test-time compute for high-entropy states, execute principled abstention, or enforce Discrete-Time Control Barrier Functions (DTCBF). This framework augments static decoding schedules with metabolically efficient, conditional computation that structurally enforces forward invariance and fortifies standard search heuristics.
+Coupled with predictive auditing, I design event-triggered control layers that govern latent dynamics. Upon detecting trajectory instability or imminent boundary collisions, these architectural reflex arcs autonomously intervene via optimal control projections. They throttle propagation, dynamically scale test-time compute for high-entropy states, execute principled abstention, or enforce Discrete-Time Control Barrier Functions (DTCBF). This framework augments static decoding schedules with metabolically efficient, conditional computation that structurally enforces forward invariance and fortifies standard search heuristics.
 
 ### Multi-Perceptual Timescale Adaptation
 
@@ -29,7 +30,7 @@ To achieve competence-level reasoning, I augment the natural-language generation
 
 ## Active Projects
 
-### Latent Invariant Space Adaptation
+### Latent Invariant Space Adaptation (LISA)
 
 Formalized neural inference as a governed flow through latent geometry within high-dimensional, non-stationary environments. This symbiotic architecture treats the underlying model and regulatory layer as a sampled-data singularly perturbed system, coupling fast behavioral inference with slow structural adaptation. By utilizing learned Koopman embeddings to monitor innovation energy, the framework autonomously detects geometric regime shifts prior to output divergence. LISA integrates these fast-scale geometric audits with event-triggered discrete-time control barrier functions projected into low-rank intervention subspaces. This mechanism mathematically gates structural plasticity and enforces uniform ultimate boundedness, preempting catastrophic off-manifold drift and maintaining representational homeostasis under severe distributional drift to augment established inference protocols. Empirically validated to detect trajectory divergence with an AUROC of 0.86 prior to token hallucination, operating with sub-10ms latency overhead.
 
@@ -42,14 +43,12 @@ Formalized neural inference as a governed flow through latent geometry within hi
 I aim to establish a principled framework for system-level reasoning that formalizes inference as a rigorously regulated dynamical computation. I engineer cognitive architectures designed to:
 
 - **Treat computation as a bounded metabolic resource**: Natively minimizing operational energy during low-discrepancy tasks while dynamically scaling test-time deliberation for high-entropy inputs.
-
 - **Maintain systemic homeostasis**: Enforcing bounded operational behavior through mathematically verified damping, trajectory refinement, and triggered abstention protocols.
-
 - **Enable event-critical symbiosis**: Translating latent instability into interpretable boundary signals for human operators, establishing the model as a deeply trusted partner during safety-critical execution and complex scientific discovery.
 
 ---
 
-## Tools & Technical Primitives
+## Tools and Technical Primitives
 
 **Machine Learning**: Adaptive and inference-time scaling, invariant representation learning, foundation model internals, structured multi-process coordination.
 
@@ -57,4 +56,4 @@ I aim to establish a principled framework for system-level reasoning that formal
 
 **Systems Engineering**: Closed-loop inference controllers, trajectory-level logging and stability benchmarking, diagnostic instrumentation, automated simulation pipelines.
 
-**Software & Tooling**: PyTorch, NumPy/SciPy, Hugging Face ecosystem (Hub, Spaces, ZeroGPU), FastAPI, Jupyter, Linux/Bash.
+**Software and Tooling**: PyTorch, NumPy, SciPy, Hugging Face ecosystem, FastAPI, Jupyter, Linux, Bash.
