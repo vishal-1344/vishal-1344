@@ -12,20 +12,6 @@
  • GW & FRB Autonomous Alerts• Closed-loop control (SCI)  • Phase & transient ear
  • Extreme low-SNR inference • Neural Operators / PDEs    • Producer / DJ dynamics
 ```
-I am a computational researcher focusing on time-domain astrophysics, simulation-based inference (SBI), and physics-informed dynamical modeling.
+I am a computational researcher bridging Astro-ML, simulation-based inference (SBI), and physics-informed dynamical systems. My methodological edge stems from an unconventional, deeply empirical background as a digital music producer and live DJ, where thousands of hours in sound engineering forged an intuitive grasp of the frequency domain: sculpting parametric equalizers (continuous Fourier and biquad transfer functions), managing phase coherency, and isolating sub-millisecond micro-temporal transients by ear. Today, I translate that signal processing foundation to building deep learning architectures for time-domain astrophysics, deploying amortized neural posterior estimation across next-generation observatories (LIGO/Virgo/LISA, FRBs), and developing autonomous, closed-loop machine learning systems SCI engineered to operate reliably within the extreme low-SNR, non-stationary realities of deep-space telemetry.
 
-The Empirical Edge: Applied Signal Processing
-
-My methodological foundation stems from an unconventional but deeply empirical background: years of active work as a digital music producer and live DJ. Thousands of hours spent engineering complex acoustic dynamics forged a tactile, rigorous grasp of the frequency domain:
-
-Continuous Fourier & Biquad Transfer: Sculpting parametric equalizers and adaptive filters.
-Phase Coherency & Transients: Navigating sub-millisecond DAW granularity to isolate spectral leakage and eliminate destructive comb filtering.
-Non-Linear Dynamics: Driving precision saturation to generate harmonic series.
-The Frontier: Next-Gen Observatories & Neural Control
-
-Today, I translate that empirical intuition to the streaming pipelines and non-stationary realities of space telemetry. My core research areas include:
-
-Astro-ML Pipelines: Deploying amortized SBI on gravitational-wave strain (LIGO/Virgo/LISA) and correcting interstellar plasma dispersion for radio transient alerts (FRBs).
-Autonomous Metacognitive Architectures: Moving beyond static feedforward models to design closed-loop frameworks (like SCI). These architectures treat inference as an active dynamical process, complete with continuous state feedback and Lyapunov-bounded stability.
-
-Links: arXiv (2511.12240) • Hugging Face • SoundCloud (@somethingjuicie / @ricky-x-ahab) • Pond5 Portfolio
+arXiv (2511.12240) • Hugging Face • SoundCloud (@somethingjuicie / @ricky-x-ahab) • Pond5 Portfolio
